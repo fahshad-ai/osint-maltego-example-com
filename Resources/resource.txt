@@ -1,0 +1,21 @@
+External OSINT Resources Used
+
+1. crt.sh 
+   Purpose: Certificate transparency lookup
+   Link: https://crt.sh/?q=example.com
+
+2. DNS Twister
+   Purpose: Typo-squatting detection
+   Link: https://dnstwister.report/
+
+3. Intelligence X
+   Purpose: Breach and leaked data lookup
+   Link: https://intelx.io/
+
+4. Have I Been Pwned (Optional)
+   Purpose: Email breach verification
+   Link: https://haveibeenpwned.com/
+
+5. Maltego Transforms
+   Purpose: Infrastructure footprinting
+   Built into Maltego Community Edition

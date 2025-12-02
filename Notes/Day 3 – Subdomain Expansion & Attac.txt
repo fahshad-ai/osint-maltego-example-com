@@ -1,0 +1,20 @@
+Day 3 – Subdomain Expansion & Attack Surface Mapping
+
+New Entities Discovered:
+- Total new DNS names: 13
+- Total new IP addresses: 8
+- Other connected websites/domains: Yes (multiple external references)
+
+Interesting Findings:
+- Many subdomains and DNS records point to shared or multi-tenant hosting.
+- Expanded infrastructure suggests widely distributed domain presence.
+- Some external domains are indirectly linked, indicating network exposure.
+
+Graph Status:
+- Total entities now: 70
+- Total relationships/links: Increased significantly from Day 2
+
+Conclusion:
+Attack surface successfully expanded. 
+Next step: Enrich the IP addresses using Shodan and other OSINT tools 
+to identify potential vulnerabilities and exposed services.

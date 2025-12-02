@@ -1,0 +1,30 @@
+Day 4 – Threat Intelligence & Shodan OSINT Notes
+
+Target Domain: example.com
+
+Summary:
+During Shodan and OSINT enrichment, we identified that the
+target and its related services are protected using
+DNS/CDN providers. Their true IP infrastructure is masked,
+which is a strong security measure.
+
+Key Findings:
+- No direct IP mapping available from DNS records
+- Websites and DNS names are routed through secure proxy/CDN
+- Cloudflare / Akamai technologies present (security + load balancing)
+- Public-facing exposure is minimized → Reduced attack surface
+
+Threat Intelligence Insights:
+- Masked origin servers prevent direct attacks on infrastructure
+- Difficult for attackers to discover real hosting architecture
+- Sign of industry-standard security practices
+
+Conclusion:
+Even though IP resolution is restricted, this itself is
+a valuable security finding. The domain is using security
+controls to protect server identity and reduce attack vectors.
+
+Next Step:
+Proceed to Day 5 – Breach Data OSINT + Certificate Transparency Search
+to investigate public exposure from leaked data & certificates.
+

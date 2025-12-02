@@ -1,0 +1,49 @@
+Day 5 – Breach Data & Certificate Transparency OSINT
+
+Target: example.com
+
+Objective:
+To identify public exposure related to certificates, leaked data, and
+typo-squatting risks to understand the real-world attack potential.
+
+Findings:
+
+1️⃣ Certificate Transparency (crt.sh)
+- Multiple certificates issued for example.com
+- Wildcard certificate (*.example.com) indicates hidden subdomains
+- Certificates managed by trusted authorities (Sectigo, DigiCert)
+- Continuous renewal shows active and secure infrastructure management
+
+Security Insight:
+Even though core infrastructure is protected, attackers can track
+certificate transparency logs to discover additional subdomains and
+future changes in hosting services.
+
+2️⃣ Breach Data Exposure (IntelligenceX)
+- Thousands of results containing example.com in global breach datasets
+- Includes CSV, database, email, and text file leaks
+- Data presence could be exploited in phishing or spam attacks
+
+Security Insight:
+Leaked data allows attackers to harvest email addresses, impersonate
+users, and deliver malware or social engineering attacks.
+
+3️⃣ Typo-squatting & Phishing Risks (DNSTwister)
+- Over 95 visually similar domains identified
+- Some linked to active IPs and valid MX records
+- High probability of phishing, impersonation, or scam usage
+- Global infrastructure suggests widespread exploitation risk
+
+Security Insight:
+Typo-squatting remains a major threat for brand abuse and user
+credential theft. These domains must be monitored and blocked.
+
+Conclusion:
+Although direct IP information is protected by CDN and DNS security,
+multiple indirect attack surfaces exist through:
+- Leaked data in public breaches
+- Hidden infrastructure revealed by certificate logs
+- Fake domains capable of phishing attacks
+
+Next Step:
+Day 6 – Graph Cleanup + Report Structure Planning

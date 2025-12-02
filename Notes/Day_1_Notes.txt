@@ -1,0 +1,24 @@
+Project: OSINT Infrastructure Mapping Using Maltego  
+Target: example.com  
+Start Date: 24 October 2025 
+Author: Fahshad  
+
+Objective:
+To gather publicly available information about the target using OSINT techniques
+and create a professional investigation report showing infrastructure, risks,
+and attacker perspectives.
+
+Day 1 Completed Tasks:
+- Created main project folder: OSINT_Maltego_JuiceShop_Project (renamed for new target)
+- Organized folder structure:
+    • Graphs
+    • Screenshots
+    • Notes
+    • Final Report
+    • Resources
+- Installed and verified Maltego CE
+- Prepared to start the investigation
+
+Outcomes:
+System ready, tools ready, scope defined. 
+We will begin reconnaissance from Day 2.

@@ -1,0 +1,53 @@
+Day 7 — Final Summary and Security Recommendations
+
+What Was Completed Today
+
+Consolidated all OSINT findings into a structured final report
+
+Completed risk categorization and final analysis
+
+Added screenshots and visuals to documentation
+
+Prepared the project for GitHub and portfolio publishing
+
+Key Findings Recap
+
+Several mail-related subdomains were publicly exposed, providing phishing and spoofing opportunities
+
+Test and staging systems discovered, which can become weak entry points for attackers
+
+Publicly visible VPN host indicates possible internal network access risk
+
+External services referenced, introducing supply chain and trust-based vulnerabilities
+
+OSINT alone provided enough data to plan early attack stages without any intrusive methods
+
+Security Risks Identified
+
+Category	Impact
+
+Phishing & credential theft	High
+
+Internal access attempts through VPN	High
+
+Attackers mapping infrastructure easily	Medium
+
+Domain impersonation (typosquatting)	High
+
+
+Final Security Recommendations
+
+Enforce DMARC, SPF, and DKIM to prevent email spoofing
+
+Minimize exposed DNS entries not required publicly
+
+Register high-risk typo domains and monitor domain impersonation
+
+Conduct routine OSINT reviews to ensure reduced attack surface
+
+Educate users on identifying common phishing tactics
+
+Final Statement
+
+This OSINT project demonstrates how much sensitive infrastructure information can be discovered through publicly accessible intelligence sources.
+Understanding attacker reconnaissance helps organizations strengthen defenses before real-world threats exploit exposed assets.

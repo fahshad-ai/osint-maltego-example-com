@@ -1,0 +1,43 @@
+Day 2 – OSINT Findings (example.com)
+
+Target Domain: example.com
+
+Entities discovered:
+
+Total entities: 49
+
+Total relationships/links: 48
+
+DNS / Infrastructure Results:
+
+DNS Names found (orange icons): 28
+
+IP Addresses found (green icons): 18
+
+Mail servers found: 1 (mail.mail.example.com)
+
+Name servers found: 2 (b.iana-servers.net, c.iana-servers.net)
+
+Websites detected from transforms: 2 (example.com, www.reddit.com reference link)
+
+WHOIS Details:
+
+Organization name: Internet Assigned Numbers Authority (IANA)
+
+Registrar: VeriSign Global Registry Services
+
+Country: United States
+
+Observations:
+
+Multiple DNS names pointing to the same infrastructure
+
+Wide network relationships suggest public + shared resources
+
+No private/sensitive data exposed
+
+Good starting footprint of infrastructure
+
+Conclusion:
+Initial discovery was successful. The attack surface has been identified at a basic level.
+Ready for deeper subdomain and infrastructure mapping on Day 3.

@@ -1,0 +1,19 @@
+Day 6 — Risk Categorization & Graph Organization
+
+Today, the focus was on visual structure and risk understanding of the discovered infrastructure using Maltego.
+
+ What Was Done
+
+Organized the Maltego graph into clear groups:
+
+Root domain at the top
+
+Website nodes in the middle
+
+IP nodes at the bottom
+
+DNS mail/infrastructure nodes on the right
+
+Identified high–medium–low risk areas in the infrastructure
+
+Grouped related domains and servers for better readability
